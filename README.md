@@ -1,4 +1,4 @@
-Less4Laravel Alternative
+jtgrimes/less4laravel Alternative
 ============
 
 This is an alternative issue to use oyejorge/less.php instead of leafo/lessphp with this package jtgrimes/less4laravel https://github.com/jtgrimes/less4laravel
