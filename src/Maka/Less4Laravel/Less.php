@@ -1,6 +1,7 @@
 <?php namespace Maka\Less4laravel;
 
 use Less_Cache;
+use URL;
 use Illuminate\Config\Repository as Config;
 use Illuminate\Html\HtmlBuilder as Html;
 
@@ -15,7 +16,7 @@ class Less {
 
 	public function to($filename, $attributes=array()) {
 		$basePath = base_path();
-		$publicPath = public_path();
+		$publicPath = URL::to('/');
 		$sourceFolder = $this->config->get('less4laravel::source_folder');
 		$targetFolder = $this->config->get('less4laravel::target_folder');
 		$link_folder = $this->config->get('less4laravel::link_folder');
