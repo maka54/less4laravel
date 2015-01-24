@@ -54,7 +54,7 @@ return array(
      |--------------------------------------------------------------------------
      |
      | When we generate a link to the public root, where should it point?
-     | default: /
+     | default: 
      */
     'link_root' => '/',
 
