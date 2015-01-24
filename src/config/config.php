@@ -48,15 +48,15 @@ return array(
      */
     'link_folder' => '/css',
 	
-	/*
+    /*
      |--------------------------------------------------------------------------
-     | public folder
+     | link root
      |--------------------------------------------------------------------------
      |
-     | When we generate a link to the public file, where should it point?
-     | default: /public
+     | When we generate a link to the public root, where should it point?
+     | default: /
      */
-    'public_folder' => '/public',
+    'link_root' => '/',
 
 
 );
