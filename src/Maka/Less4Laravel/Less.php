@@ -18,12 +18,13 @@ class Less {
 		$sourceFolder = $this->config->get('less4laravel::source_folder');
 		$targetFolder = $this->config->get('less4laravel::target_folder');
 		$link_folder = $this->config->get('less4laravel::link_folder');
+		$public_folder = $this->config->get('less4laravel::public_folder');
 		$in = "$basePath/$sourceFolder/$filename.less";
 		$out = "$basePath/$targetFolder";
 		
 		
 		Less_Cache::$cache_dir = $out;
-		$cssFilename =  Less_Cache::Get( array( $in => public_path() ) ) ;
+		$cssFilename =  Less_Cache::Get( array( $in => $public_folder ) ) ;
 		return $this->builder->style("$link_folder/$cssFilename",$attributes);
 	}
 }

@@ -47,6 +47,16 @@ return array(
      | default: /css
      */
     'link_folder' => '/css',
+	
+	/*
+     |--------------------------------------------------------------------------
+     | public folder
+     |--------------------------------------------------------------------------
+     |
+     | When we generate a link to the public file, where should it point?
+     | default: /public
+     */
+    'public_folder' => '/public',
 
 
 );
