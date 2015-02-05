@@ -28,6 +28,7 @@ class Less {
 		
 		Less_Cache::$cache_dir = $out;
 		$cssFilename =  Less_Cache::Get( array( $in => $public ) ) ;
+		Less_Cache::CleanCache();
 		return $this->builder->style("$link_folder/$cssFilename",$attributes);
 	}
 }
