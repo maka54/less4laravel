@@ -19,6 +19,6 @@
         "psr-0": {
             "Maka\\Less4laravel\\": "src/"
         }
-    }
+    },
 	"minimum-stability": "dev"
 }
