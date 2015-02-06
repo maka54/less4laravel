@@ -16,9 +16,9 @@
 		"oyejorge/less.php": "~1.5"
     },
     "autoload": {
-        "psr-0": {
+        "psr-4": {
             "Maka\\Less4laravel\\": "src/"
         }
     },
-	"minimum-stability": "dev"
+	"minimum-stability": "stable"
 }
