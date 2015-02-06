@@ -20,5 +20,5 @@
             "Maka\\Less4laravel": "src/"
         }
     },
-    "minimum-stability": "stable"
+    "minimum-stability": "dev"
 }
