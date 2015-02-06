@@ -10,15 +10,14 @@
         }
     ],
     "require": {
-        "php": ">=5.4",
-        "illuminate/support": "4.2.*",
-		"illuminate/html": "4.*",
+        "php": ">=5.4.0",
+		"illuminate/support": "5.0.*",
+		"illuminate/html": "5.0.*",
 		"oyejorge/less.php": "~1.5"
     },
     "autoload": {
-        "psr-4": {
-            "Maka\\Less4laravel\\": "src/"
+        "psr-0": {
+            "Maka\\Less4laravel": "src/"
         }
-    },
-    "minimum-stability": "stable"
+    }
 }
