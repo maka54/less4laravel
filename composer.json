@@ -17,7 +17,8 @@
     },
     "autoload": {
         "psr-0": {
-            "Maka\\Less4laravel": "src/"
+            "Maka\\Less4laravel\\": "src/"
         }
     }
+	"minimum-stability": "dev"
 }
